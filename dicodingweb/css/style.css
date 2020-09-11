@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	font-family: sans-serif;
+	vertical-align: baseline;
+}
+
+body{
+    font-size: 18px/36px;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.65;
+}
+
+header{
+    background-image: linear-gradient(0,0,0,0.5)
+    ,rgba(0,0,0,0.5);
+    background: url(../img/Graphic-design.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+/*title*/
+.title{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-10%);
+    font-family: Helvetica;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+    font-weight: bold;
+}
+.title h1{font-size: 50px;}
+.title p{font-size: 20px;}
+/*************/
+
+/*navbar*/
+
+nav ul{
+    margin-top: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 40px;
+    transition: 0.6s;
+    
+}
+ul{
+    list-style: none;
+}
+ul li a:hover{color: rgba(12, 12, 12, 5);}
+
+
+
+nav{
+    width: 1350px;
+    justify-content: flex-end;
+    align-items: center;
+}
+/*******/
+
+/*konten1*/
+.container{
+    height: 110vh;
+    margin: 50px auto;
+    box-sizing: border-box;
+    padding: 5px;   
+    
+}
+
+
+.konten{
+    display: flex;
+    flex: 3; 
+    
+}
+.sidebar{
+    flex: 1;
+    padding: 100px 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.sidebar aside{
+    background-color: #ffffff;
+    padding: 15px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.2);
+}
+
+.konten .materi{
+    width: 150px;
+    box-sizing: border-box;
+}
+.materi-satu p,.materi-dua p,.materi-tiga p,.materi-empat p{
+    text-align: center;
+}
+
+.materi-satu,.materi-dua,.materi-tiga,.materi-empat{
+    background-color: #ffffff;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.2);
+    margin: 0 20px;
+    border-radius: 6px;
+    width: 300px;
+    padding: 20px 20px;
+}
+
+.materi-satu,.materi-dua{
+    margin-top: 150px;
+}
+
+.materi-satu img,.materi-dua img,.materi-tiga img,.materi-empat img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 20px auto;
+}
+/*******/
+
+/*komen*/
+.container2{
+    height: 110vh;
+    margin: 50px auto;
+    box-sizing: border-box;
+    padding: 5px;   
+    background-color: rgba(233, 224, 224, 0.5);
+    
+}
+
+.konten2{
+    flex: 3;
+    display: flex;
+    margin-top: 100px;
+}
+.konten2 .comment{
+    width: 150px;
+    box-sizing: border-box;
+    
+}
+.comment-satu p,.comment-dua p,.comment-tiga p{
+    font-style: italic;
+}
+.comment-satu,.comment-dua,.comment-tiga{
+    background-color: #ffffff;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.2);
+    margin: 20px 20px;
+    border-radius: 6px;
+    width: 950px;
+    padding: 20px 20px;
+}
+.profile{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.orang-satu,.orang-dua,.orang-tiga{position: relative;}
+.orang-satu p,.orang-dua p,.orang-tiga p{text-align: center;}
+.orang-satu{bottom: 20px;}
+.orang-dua{top: 50px;}
+.orang-tiga{top: 120px;}
+
+.profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+/*******/
+/**judul**/
+.container .tes,.container2 .tes,.container3 .tes{
+    position: absolute;
+    margin-top: 20px;
+}
+
+.tes h3{
+    text-align: center;
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*******/
+
+/***Card Course***/
+.container3{
+    height: 600px;
+    margin: 50px auto;
+    
+    
+}
+.konten3{
+    margin-top: 200px;
+    border: 1px solid #999;
+    border-radius: 2px;
+    width: 300px;
+    height: 400px;
+    
+}
+.konten3 .header{
+    height: 250px;
+    background: url(../img/contoh.jpg);
+}
+.konten3 .card{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.card h3{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.card p{
+    font-size: 15px;
+}
+
+.card button:hover{
+    background-color: transparent;
+    color: black;
+}
+
+/*footer*/
+
+.container4{
+    height: 50px;
+    background-color: rgba(233, 224, 224, 0.5);
+    padding: 20px 0;
+    
+}
+.copyright{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.container4 .promosi{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.promosi h2{
+    position: absolute;
+}
+.promosi a{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.promosi img{
+    width: 25px;
+    height: 25px;
+}
+/*******/
+@media(min-width: 600px){
+/*konten*/
+.container{
+    display: flex;
+    justify-content: center;
+}   
+.konten{
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+/******/
+
+/*header*/
+header nav{
+        display: flex;   
+    }
+nav ul{
+        display: flex;
+    }
+    
+.title{
+        bottom: 200px;
+    }
+    
+}
+/*komen*/
+.container2{
+    display: flex;
+    justify-content: center;
+}   
+
+.konten2{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/*******/
+/*card*/
+.container3{
+display: flex;
+justify-content: space-around;
+}
+/***/
+/**footer**/
+.container4{
+    display: flex;
+}
+@media(max-width:600px){
+main{
+    height: max-content;
+}
+.tes .judul{
+    margin-left: 20px;
+}
+.title h1{
+    margin-top: 80px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.container{
+    height: 1780px;
+    
+}
+
+.sidebar aside{
+    width: 200px;
+    height: 280px;
+}
+aside img{
+    width: 200px;
+}
+aside p,aside h2{
+    font-size: 12px;
+}
+.konten{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.materi-satu,.materi-dua,.materi-tiga,.materi-empat{
+    position: relative;
+}
+.materi-dua{
+    bottom: 100px;
+    position: relative;
+}
+.materi-tiga{
+    bottom: 50px;
+}
+.container2{
+    height: 1350px;
+}
+.konten2{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.comment-satu,.comment-dua,.comment-tiga{
+    width: 200px;
+}
+.profile{
+    flex: 2;
+}
+.orang-satu,.orang-dua,.orang-tiga{
+    position: relative;
+    width: 100px;
+}
+.orang-satu img,.orang-dua img,.orang-tiga img{
+    width: 100px;
+    height: 100px;
+}
+.orang-satu{
+    bottom: 250px;
+}
+.orang-tiga{
+    top: 340px;
+}
+.orang-satu p,.orang-dua p,.orang-tiga p{
+    text-align: center;
+    font-size: 12px;
+}
+.konten2 p{
+    font-size: 15px;
+}
+/**judul**/
+.tes h3{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 35px;
+}
+.container .tes{ 
+    margin-left: 72px;
+    
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.konten3.satu,.konten3.dua,.konten3.tiga{position: relative;}
+.konten3.satu{bottom: 150px;}
+.konten3.dua{bottom: 300px;}
+.konten3.tiga{bottom: 450px;}
+
+.container4{
+    margin-top: 1400px;
+}
+.copyright span,.promosi h2{
+    text-align: center;
+    font-size: 14px;
+}
+
+}
